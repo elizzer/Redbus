@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Redbus-replica</title>
+
+</head>
+<body>
+    <section class="header">
+
+        <section class="nav-bar-section">
+            <nav>
+                <div class="left-nav">
+                    <a href="">
+                        <img class="redbus-logo" src="imgs/redbus-logo.png" alt="logo">
+                    </a>
+                    <a href="#" class="nav-link" >BUT TICKET</a>
+                    <a href="#" class="nav-link" >rPool</a>
+                    <a href="#" class="nav-link" >BUT HIRE</a>
+                </div>
+                <div class="right-nav">
+                    <a href="#" class="nav-link">Help</a>
+                    <a href="#" class="nav-link profile">Manage bookings
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg>
+                        </button>
+                    </a>
+                    <a href="#" class="nav-link profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="60px" viewBox="0 0 24 24" width="60px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg>
+                            
+                        </button>
+                    </a>
+                </div>
+            </nav>
+        </section>
+        <div class="search-box">
+            <div class="search">
+                <div class="from">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="##d8d8d8"><g><rect fill="none" height="24" width="24"/></g><g><path d="M17,11V3H7v4H3v14h8v-4h2v4h8V11H17z M7,19H5v-2h2V19z M7,15H5v-2h2V15z M7,11H5V9h2V11z M11,15H9v-2h2V15z M11,11H9V9h2 V11z M11,7H9V5h2V7z M15,15h-2v-2h2V15z M15,11h-2V9h2V11z M15,7h-2V5h2V7z M19,19h-2v-2h2V19z M19,15h-2v-2h2V15z"/></g></svg>
+                    </span>
+                    <input class="from-input" type="text" placeholder="From">
+                </div>
+                <span class="from-to-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><rect fill="none" height="24" width="24"/><path d="M8.5,8.62v6.76L5.12,12L8.5,8.62 M10,5l-7,7l7,7V5L10,5z M14,5v14l7-7L14,5z"/></svg>
+                </span>
+                <div class="to">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="##d8d8d8"><path d="M0 0h24v24H0z" fill="none"/><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/></svg>
+                    </span>
+                    <input class="to-input" type="text" placeholder="to">
+                </div>
+                <div class="date">
+                    <span></span>
+                    <input class="date-input" type="Date" placeholder="From">
+                </div>
+                <div class="btn">
+                    <button type="button">Search
+                    </button>
+                </div>
+           </div>
+        </div>
+    </section>
+    <section class="second-section">
+        
+            <div class="safety">
+                <div>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="60" viewBox="0 0 60 70">
+                            <defs>
+                                <path id="prefix__a" d="M0 0.21L59.909 0.21 59.909 69.314 0 69.314z"/>
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                                <path fill="#72BF98" d="M29.954 66.722c2.898-1.093 16.595-6.607 23.577-21.716 5.434-11.757 3.672-24.667 2.89-28.388L29.954 2.816 3.488 16.618c-.782 3.721-2.544 16.63 2.89 28.388C13.36 60.115 27.057 65.63 29.954 66.722"/>
+                                <g transform="translate(0 .007)">
+                                    <mask id="prefix__b" fill="#fff">
+                                        <use xlink:href="#prefix__a"/>
+                                    </mask>
+                                    <path fill="#1F2F59" d="M51.172 43.909c-5.706 12.348-16.134 17.933-21.218 20.013-5.083-2.08-15.51-7.665-21.217-20.013-4.825-10.442-3.55-21.784-2.924-25.579L29.954 5.74l24.142 12.59c.626 3.795 1.901 15.137-2.924 25.579m7.792-27.833c-.16-.76-.652-1.41-1.341-1.77L31.156.504c-.753-.392-1.65-.392-2.403 0L2.286 14.306c-.69.36-1.181 1.01-1.341 1.77-.346 1.643-3.196 16.447 3.073 30.014 6.882 14.891 19.79 21.085 25.02 23.057.295.111.606.167.916.167.311 0 .622-.056.918-.167 5.23-1.972 18.137-8.166 25.019-23.057 6.27-13.567 3.419-28.37 3.073-30.014" mask="url(#prefix__b)"/>
+                                </g>
+                                <path fill="#1F2F59" d="M40.6 30.776h-6.728v-6.677c0-.989-.804-1.793-1.793-1.793h-4.25c-.988 0-1.793.804-1.793 1.793v6.677H19.31c-.989 0-1.793.804-1.793 1.793v4.45c0 .99.804 1.794 1.793 1.794h6.726v6.625c0 .989.805 1.793 1.793 1.793h4.25c.989 0 1.793-.804 1.793-1.793v-6.625h6.727c.989 0 1.793-.805 1.793-1.793v-4.451c0-.989-.804-1.793-1.793-1.793"/>
+                            </g>
+                        </svg>
+                    </span>
+                </div>
+                <div class="safety-content">
+                    <h5>Safety+Program</h5>
+                    <p>A unique certification program to ensure safety in all buses.</p>
+                </div>
+                <div class="know">
+                   <p> KNOW MORE</p>
+                </div>
+            </div>
+            <div class="speciality">
+                <div class="box ">
+                    <div class="box-top">
+                        <p>
+                            Save up to Rs 150 on bus tickets
+                        </p>
+                    </div>
+                    <div class="box-mid">
+                        <img src="imgs/b.png" alt="Journy to the dreams">
+                    </div>
+                    <div class="box-bot">
+                        <p>
+                            Use code FIRST
+                        </p>
+                    </div>
+                </div>
+                <div class="box ">
+                    <div class="box-top">
+                        <p>
+                            redBus Cares
+                        </p>
+                    </div>
+                    <div class="box-mid">
+                        <img src="imgs/c.png" alt="redBus care" >
+                    </div>
+                    <div class="box-bot">
+                        <p>
+                            A Little Care goes a long way
+                        </p>
+                    </div>
+                </div>
+               
+            </div>
+        
+    </section>
+    <section class="third-section">
+        <div class="safety-plus">
+            <div class="shield">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="90" viewBox="0 0 60 70">
+                    <defs>
+                        <path id="prefix__a" d="M0 0.21L59.909 0.21 59.909 69.314 0 69.314z"/>
+                    </defs>
+                    <g fill="none" fill-rule="evenodd">
+                        <path fill="#72BF98" d="M29.954 66.722c2.898-1.093 16.595-6.607 23.577-21.716 5.434-11.757 3.672-24.667 2.89-28.388L29.954 2.816 3.488 16.618c-.782 3.721-2.544 16.63 2.89 28.388C13.36 60.115 27.057 65.63 29.954 66.722"/>
+                        <g transform="translate(0 .007)">
+                            <mask id="prefix__b" fill="#fff">
+                                <use xlink:href="#prefix__a"/>
+                            </mask>
+                            <path fill="#1F2F59" d="M51.172 43.909c-5.706 12.348-16.134 17.933-21.218 20.013-5.083-2.08-15.51-7.665-21.217-20.013-4.825-10.442-3.55-21.784-2.924-25.579L29.954 5.74l24.142 12.59c.626 3.795 1.901 15.137-2.924 25.579m7.792-27.833c-.16-.76-.652-1.41-1.341-1.77L31.156.504c-.753-.392-1.65-.392-2.403 0L2.286 14.306c-.69.36-1.181 1.01-1.341 1.77-.346 1.643-3.196 16.447 3.073 30.014 6.882 14.891 19.79 21.085 25.02 23.057.295.111.606.167.916.167.311 0 .622-.056.918-.167 5.23-1.972 18.137-8.166 25.019-23.057 6.27-13.567 3.419-28.37 3.073-30.014" mask="url(#prefix__b)"/>
+                        </g>
+                        <path fill="#1F2F59" d="M40.6 30.776h-6.728v-6.677c0-.989-.804-1.793-1.793-1.793h-4.25c-.988 0-1.793.804-1.793 1.793v6.677H19.31c-.989 0-1.793.804-1.793 1.793v4.45c0 .99.804 1.794 1.793 1.794h6.726v6.625c0 .989.805 1.793 1.793 1.793h4.25c.989 0 1.793-.804 1.793-1.793v-6.625h6.727c.989 0 1.793-.805 1.793-1.793v-4.451c0-.989-.804-1.793-1.793-1.793"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="safety-content">
+                <div class="safety-content-title">
+                    <h5>Safety+</h5>
+                </div>
+                <div class="safety-content-subtitle">
+                    <p>Opt to Travel Safe with redBus</p>
+                    <a>KNOW MORE</a>
+                </div>
+                <div class="safety-content-mid">
+                    <img src="imgs/tip-icon.png" alt="bulb">
+                    <span> Look for buses with</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="18px" viewBox="0 0 24 24" width="18px" fill="#000000"><rect fill="none" height="24" width="24"/><path d="M10.5,13H8v-3h2.5V7.5h3V10H16v3h-2.5v2.5h-3V13z M12,2L4,5v6.09c0,5.05,3.41,9.76,8,10.91c4.59-1.15,8-5.86,8-10.91V5L12,2 z M18,11.09c0,4-2.55,7.7-6,8.83c-3.45-1.13-6-4.82-6-8.83v-4.7l6-2.25l6,2.25V11.09z"/></svg>
+                    <span class="one">safety+</span>             
+                    <span>tag while booking your journey,</span>
+                </div>
+                <div class="safety-content-bot">
+                    <div class="safety-content-box">
+                        <h4>Sanitized Bus</h4>
+                        <p>All Safety+ buses are sanitized and disinfected before and after every trip.</p>
+                    </div>
+                    <div class="safety-content-box">
+                        <h4>Mandatory masks</h4>
+                        <p>Proper masks are mandatory for all passengers and bus staff.</p>
+
+                    </div>
+                    <div class="safety-content-box">
+                        <h4>Thermal Screening</h4>
+                        <p>All passengers will undergo thermal screening. Temperature checks for bus drivers and service staff are done before every trip.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bot">
+            <div class="bot-container">
+                <div class="left">
+                    <div class="left-text">
+                        <h3>CONVENIENCE ON-THE-GO.</h3>
+                        <p>
+                            Enjoy the following exclusive features on the redBus app<br><br>
+    Last Minute Booking - In a hurry to book a bus at the last minute? Choose the bus passing from your nearest boarding point and book in a few easy steps.<br><br>
+    Boarding Point Navigation - Never lose your way while travelling to your boarding point!<br><br>
+    Comprehensive Ticket Details- Everything that you need to make the travel hassle free - rest stop details, boarding point images, chat with co-passengers, wake-up alarm and much more!<br><br>
+    Enter your mobile number below to download the redBus mobile app.<br>
+                        </p>
+                    </div>
+                    <div>
+                        <div>
+                        <select class="IP" >
+                            <option value="93">93</option>
+                            <option value="355">355</option>
+                            <option value="213">213</option>
+                            <option value="1684">1684</option>
+                            <option value="376">376</option>
+                            <option value="244">244</option>
+                            <option value="1264">1264</option>
+                            <option value="672">672</option>
+                            <option value="1268">1268</option>
+                            <option value="54">54</option>
+                            <option value="374">374</option>
+                            <option value="297">297</option>
+                            <option value="61">61</option>
+                            <option value="43">43</option>
+                            <option value="994">994</option>
+                            <option value="1242">1242</option>
+                            <option value="973">973</option>
+                            <option value="880">880</option>
+                            <option value="1246">1246</option>
+                            <option value="375">375</option>
+                            <option value="32">32</option>
+                            <option value="501">501</option>
+                            <option value="229">229</option>
+                            <option value="1441">1441</option>
+                            <option value="975">975</option><option value="591">591</option><option value="599">599</option><option value="387">387</option><option value="267">267</option><option value="47">47</option><option value="55">55</option><option value="246">246</option><option value="673">673</option><option value="359">359</option><option value="226">226</option><option value="257">257</option><option value="855">855</option><option value="237">237</option><option value="1">1</option><option value="238">238</option><option value="1345">1345</option><option value="236">236</option><option value="235">235</option><option value="56">56</option><option value="86">86</option><option value="61">61</option><option value="61">61</option><option value="57">57</option><option value="269">269</option><option value="242">242</option><option value="243">243</option><option value="682">682</option><option value="506">506</option><option value="385">385</option><option value="53">53</option><option value="599">599</option><option value="357">357</option><option value="420">420</option><option value="225">225</option><option value="45">45</option><option value="253">253</option><option value="1767">1767</option><option value="1809">1809</option><option value="1829">1829</option><option value="1849">1849</option><option value="593">593</option><option value="20">20</option><option value="503">503</option><option value="240">240</option><option value="291">291</option><option value="372">372</option><option value="251">251</option><option value="500">500</option><option value="298">298</option><option value="679">679</option><option value="358">358</option><option value="33">33</option><option value="594">594</option><option value="689">689</option><option value="262">262</option><option value="241">241</option><option value="220">220</option><option value="995">995</option><option value="49">49</option><option value="233">233</option><option value="350">350</option><option value="30">30</option><option value="299">299</option><option value="1473">1473</option><option value="590">590</option><option value="1671">1671</option><option value="502">502</option><option value="44">44</option><option value="224">224</option><option value="245">245</option><option value="592">592</option><option value="509">509</option><option value="672">672</option><option value="379">379</option><option value="504">504</option><option value="852">852</option><option value="36">36</option><option value="354">354</option><option value="91"  selected>91</option><option value="62">62</option><option value="98">98</option><option value="964">964</option><option value="353">353</option><option value="44">44</option><option value="972">972</option><option value="39">39</option><option value="1876">1876</option><option value="81">81</option><option value="44">44</option><option value="962">962</option><option value="7">7</option><option value="254">254</option><option value="686">686</option><option value="850">850</option><option value="82">82</option><option value="965">965</option><option value="996">996</option><option value="856">856</option><option value="371">371</option><option value="961">961</option><option value="266">266</option><option value="231">231</option><option value="218">218</option><option value="423">423</option><option value="370">370</option><option value="352">352</option><option value="853">853</option><option value="389">389</option><option value="261">261</option><option value="265">265</option><option value="60">60</option><option value="960">960</option><option value="223">223</option><option value="356">356</option><option value="692">692</option><option value="596">596</option><option value="222">222</option><option value="230">230</option><option value="262">262</option><option value="52">52</option><option value="691">691</option><option value="373">373</option><option value="377">377</option><option value="976">976</option><option value="382">382</option><option value="1664">1664</option><option value="212">212</option><option value="258">258</option><option value="95">95</option><option value="264">264</option><option value="674">674</option><option value="977">977</option><option value="31">31</option><option value="687">687</option><option value="64">64</option><option value="505">505</option><option value="227">227</option><option value="234">234</option><option value="683">683</option><option value="672">672</option><option value="1670">1670</option><option value="47">47</option><option value="968">968</option><option value="92">92</option><option value="680">680</option><option value="970">970</option><option value="507">507</option><option value="675">675</option><option value="595">595</option><option value="51">51</option><option value="63">63</option><option value="870">870</option><option value="48">48</option><option value="351">351</option><option value="1">1</option><option value="974">974</option><option value="40">40</option><option value="7">7</option><option value="250">250</option><option value="262">262</option><option value="590">590</option><option value="290">290</option><option value="1869">1869</option><option value="1758">1758</option><option value="590">590</option><option value="508">508</option><option value="1784">1784</option><option value="685">685</option><option value="378">378</option><option value="239">239</option><option value="966">966</option><option value="221">221</option><option value="381">381</option><option value="248">248</option><option value="232">232</option><option value="65">65</option><option value="1721">1721</option><option value="421">421</option><option value="386">386</option><option value="677">677</option><option value="252">252</option><option value="27">27</option><option value="500">500</option><option value="211">211</option><option value="34">34</option><option value="94">94</option><option value="249">249</option><option value="597">597</option><option value="47">47</option><option value="268">268</option><option value="46">46</option><option value="41">41</option><option value="963">963</option><option value="886">886</option><option value="992">992</option><option value="255">255</option><option value="66">66</option><option value="670">670</option><option value="228">228</option><option value="690">690</option><option value="676">676</option><option value="1868">1868</option><option value="216">216</option><option value="90">90</option><option value="993">993</option><option value="1649">1649</option><option value="688">688</option><option value="256">256</option><option value="380">380</option><option value="971">971</option><option value="44">44</option><option value="1">1</option><option value="1">1</option><option value="598">598</option><option value="998">998</option><option value="678">678</option><option value="58">58</option><option value="84">84</option><option value="1284">1284</option><option value="1340">1340</option><option value="681">681</option><option value="212">212</option><option value="967">967</option><option value="260">260</option><option value="263">263</option>
+                        </select>
+                        <input type="text" placeholder="Enter your mobile number">
+                        </div>
+                        <div class="sms-link">
+                            <a href="a">SMS ME THE LINK</a>
+                        </div>
+                        <div class="download-icons">
+                            <a href="#"><img class="download" src="/imgs/apple-black-logo.png" alt=""></a>
+                            <a href="#"><img class="download" src="/imgs/playstore.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="imgs/ab.png" alt=" phone">
+                </div>
+            </div>
+            <div class="bot-background">
+                <img src="/imgs/buildings.png" alt="buildings">
+            </div>
+        </div>
+    </section>
+    <section class="fourth-section">
+        <div class="fourth-section-container">
+            <div class="promise">
+                <img src="imgs/promise.png" alt="We promise...">
+            </div>
+            <div class="fourth-section-title">
+                <span>WE PROMISE TO DELIVER</span>
+            </div>
+            <div class="fourth-section-bottom">
+                <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="80" viewBox="0 0 60 70">
+                
+                
+                            <defs>
+                                <path id="prefix__a" d="M0 0.21L59.909 0.21 59.909 69.314 0 69.314z"/>
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                                <path fill="#72BF98" d="M29.954 66.722c2.898-1.093 16.595-6.607 23.577-21.716 5.434-11.757 3.672-24.667 2.89-28.388L29.954 2.816 3.488 16.618c-.782 3.721-2.544 16.63 2.89 28.388C13.36 60.115 27.057 65.63 29.954 66.722"/>
+                                <g transform="translate(0 .007)">
+                                    <mask id="prefix__b" fill="#fff">
+                                        <use xlink:href="#prefix__a"/>
+                                    </mask>
+                                    <path fill="#1F2F59" d="M51.172 43.909c-5.706 12.348-16.134 17.933-21.218 20.013-5.083-2.08-15.51-7.665-21.217-20.013-4.825-10.442-3.55-21.784-2.924-25.579L29.954 5.74l24.142 12.59c.626 3.795 1.901 15.137-2.924 25.579m7.792-27.833c-.16-.76-.652-1.41-1.341-1.77L31.156.504c-.753-.392-1.65-.392-2.403 0L2.286 14.306c-.69.36-1.181 1.01-1.341 1.77-.346 1.643-3.196 16.447 3.073 30.014 6.882 14.891 19.79 21.085 25.02 23.057.295.111.606.167.916.167.311 0 .622-.056.918-.167 5.23-1.972 18.137-8.166 25.019-23.057 6.27-13.567 3.419-28.37 3.073-30.014" mask="url(#prefix__b)"/>
+                                </g>
+                                <path fill="#1F2F59" d="M40.6 30.776h-6.728v-6.677c0-.989-.804-1.793-1.793-1.793h-4.25c-.988 0-1.793.804-1.793 1.793v6.677H19.31c-.989 0-1.793.804-1.793 1.793v4.45c0 .99.804 1.794 1.793 1.794h6.726v6.625c0 .989.805 1.793 1.793 1.793h4.25c.989 0 1.793-.804 1.793-1.793v-6.625h6.727c.989 0 1.793-.805 1.793-1.793v-4.451c0-.989-.804-1.793-1.793-1.793"/>
+                            </g>
+                </svg>
+                <img class="x123" src="imgs/customer_care.png" alt="customer_care">
+                <img class="x123" src="imgs/lowest_Fare.png" alt="shield">
+                <img class="x123" src="imgs/benefits.png" alt="shield">
+                <span class="heading">SAFETY+</span>
+                <span class="heading">SUPERIOR CUSTOMER SERVICE</span>
+                <span class="heading">LOWEST PRICES</span>
+                <span class="heading">UNMATCHED BENEFITS</span>
+                <span class="content">
+                    With Safety+ we have brought in a set of measures like Sanitized buses, mandatory masks etc. to ensure you travel safely.
+                </span>
+                <span class="content">
+                    We put our experience and relationships to good use and are available to solve your travel issues.
+                </span>
+                <span class="content">
+                    We always give you the lowest price with the best partner offers.
+                </span>
+                <span class="content">
+                    We take care of your travel beyond ticketing by providing you with innovative and unique benefits.
+                </span>
+                
+            </div>
+        </div>
+    </section>
+    <section class="fifth-section">
+        <div class="fifth-section-container">
+            <div class="title">
+                <span>AWARDS & RECOGNITION</span>
+            </div>
+            <div class="content">
+                <div class="fifth-section-box">
+                    <img src="imgs/Business_Standard1.png" alt="Business_Standard">
+                    <span>
+                        Most Innovative Company
+                    </span>
+
+                </div>
+                <div class="fifth-section-box">
+                    <img src="imgs/Brand_Trust_Report.png" alt="Brand_Trust_Report">
+                    <span>
+                        Most Trusted Brand
+                    </span>
+                </div>
+                <div class="fifth-section-box">
+                    <img src="imgs/Eye_for_Travel1.png" alt="Eye_for_Travel1">
+                    <span>
+                        Mobile Innovation Award
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="sixth-section">
+        <div>
+            <span>OUR GLOBAL PRESENCE</span>
+            <div>
+                <div class="flag">
+                    <a href="#">
+                        <img src="/imgs/colombia.png" alt="colombia">
+                        COLOMBIA
+                    </a>
+                </div>
+                <div class="flag">
+                    <a href="#">
+                        <img src="/imgs/india.png" alt="india">
+                        INDIA
+                    </a>
+                </div>
+                <div class="flag">
+                    <a href="#">
+                        <img src="imgs/indonesia.png" alt="indonesia">
+                        INDONESIA
+                    </a>
+                </div>
+                <div class="flag">
+                    <a href="#">
+                        <img src="imgs/malayasia.jpg" alt="malayasia">
+                        MALAYSIA
+                    </a>
+                </div>
+                <div class="flag">
+                    <a href="#">
+                        <img src="/imgs/peru.png" alt="peru">
+                        PERU
+                    </a>
+                </div>
+                <div class="flag">
+                    <a href="#">
+                        <img src="/imgs/singapore.png" alt="singapore">
+                        SINGAPORE
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="seventh-section">
+        <div>
+            <h4>THE NUMBERS ARE GROWING!</h4>
+            <div>
+                <div>
+                    <span>CUSTOMERS</span>
+                    <h5 class="m">36 M</h5>
+                    <p>redBus is trusted by over 36 million happy customers globally</p>
+                </div>
+                <div>
+                    <span>OPERATORS</span>
+                    <h5 class="m">3500</h5>
+                    <p>network of over 3500 bus operators worldwide</p>
+                </div>
+                <div>
+                    <span>BUS TICKETS</span>
+                    <h5 class="m">220+ M</h5>
+                    <p>Over 220 million trips booked using redBus</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
